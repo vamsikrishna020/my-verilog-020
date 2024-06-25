@@ -1,2 +1,2 @@
 # my-verilog-020
-verilog projects
+implented digital blocks and FSMs using verilog.
