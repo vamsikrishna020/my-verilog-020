@@ -6,9 +6,10 @@ module ALU(f,a,b,op,en);
     case(op)
        3'b000 :  alu = a+b;
        3'b001 :  alu = a-b;
-       3'b010 :  alu = b >> 2;
+       3'b010 :  alu = a*b;
        3'b011 :  alu = a/b;
-       3'b100 :  alu = ~a;
+       3'b100 :  alu = a>>2;
+       3'b101 :  alu = b<<1;
       default :  alu = '0;
     endcase
   end
