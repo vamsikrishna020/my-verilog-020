@@ -7,7 +7,7 @@ module test;
   initial 
     begin
       $monitor("enable = %b,operation = %b,output = %d",en,op,f);
-a = 50; b = 10; op = 0; en = 1;
+a = 10; b = 5; op = 0; en = 1;
 
 for(i = 1; i < 8; i = i+ 1)begin
     #10
