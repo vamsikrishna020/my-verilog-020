@@ -12,10 +12,10 @@ begin
 
 $monitor("a=%b b=%b carry=%b out=%b",a,b,carry,out);
 
+#5;
 a=8'b01010111;
 b=8'b00100110;
-#1;
-
+#5;
 a=8'b00001000;
 b=8'b00001001;
 end
