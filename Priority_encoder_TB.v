@@ -1,4 +1,4 @@
-`include "Priority_encoder.v"
+
 module Priority_encoder_tb ;
 
 reg [3:0] test;
