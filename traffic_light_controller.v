@@ -1,4 +1,4 @@
-module traffic_light_controller (
+module RGY(
     input clk,            // 5-second clock signal
     input reset,          // Asynchronous reset
     output reg green,     // Green light output
